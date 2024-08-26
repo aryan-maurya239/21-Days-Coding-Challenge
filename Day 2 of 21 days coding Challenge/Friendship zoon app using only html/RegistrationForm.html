@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        * {
+            margin: 10px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Friends.PNG" alt="Friends image" height="220px">
+    </header>
+    <h3 style="margin-left: 300px;">Friendship Zone</h3>
+    <form action="RegistrationConfirmation.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your name" required>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br>
+        
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" min="18">
+        <br>
+
+        <label for="birth">Birth Day: </label>
+        <input type="date" name="birth" id="birth"><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female
+        <br>
+
+        <label for="about">About:</label>
+        <textarea name="about" id="about"></textarea>
+        <br>
+
+        <label for="phone">Phone: </label>
+        <input type="number" name="phone" id="phone">
+        <br>
+
+        <label for="interest">Interested in: </label>
+        <input type="checkbox" name="interest" id="friendship">Friendship
+        <input type="checkbox" name="interest" id="dating">Dating
+        <br>
+        
+        <label for="attachment">Attachment:</label>
+        <input type="file" name="attachment" id="attachment"><br>
+
+        <input type="submit" value="Register">
+        <input type="submit" value="Register as admin">
+    </form>
+</body>
+</html>
