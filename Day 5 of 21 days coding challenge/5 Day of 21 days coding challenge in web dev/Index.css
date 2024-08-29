@@ -1,0 +1,44 @@
+pre{
+    text-align:center;
+    border: 2px solid black;
+    width: 300px;
+}
+h1{
+    text-align: right; 
+    /* acording to parent */
+   
+    border: 2px solid black;
+    ;
+}
+    
+
+p{
+    text-align:justify;
+     /* spece are increce */
+    font-weight: bold;
+
+    line-height: 2;
+    /* 2 minis 2x gap bwteen line  */
+
+    font-size: 20px;
+
+    font-style: italic;
+
+   
+}
+
+h3 ,h1{
+    font-family: fantasy  ;
+    font-weight: normal;
+    text-decoration: red line-through;
+    
+}
+
+h2{
+    text-decoration: rgb(68, 0, 255) underline;
+    
+}
+
+div{
+    letter-spacing: 10px;
+}
