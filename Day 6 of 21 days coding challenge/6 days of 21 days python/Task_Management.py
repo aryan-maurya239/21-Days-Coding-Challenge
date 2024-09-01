@@ -43,7 +43,7 @@ total_tasks = int(input("Enter the number of tasks you want to add: "))
 for i in range(1, total_tasks + 1):
     task_name = input(f"\nEnter task No. {i}: ")
     tasks.append(task_name)
-print(f"\n{tasks} tasks are successfully added...\n")
+print(f"\n{tasks} tasks are successfully added...\n")    
 
 while True:
     opp = int(input("\nEnter 1 to add a new task\nEnter 2 to update an old task\nEnter 3 to delete a task\nEnter 4 to view all tasks\nEnter 5 to close the app:\n "))
