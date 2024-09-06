@@ -1,0 +1,45 @@
+
+*{
+    background-color: black;
+}
+
+h2{
+    color: white;
+}
+div{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+.static{
+    background-color: yellow;
+    position: static;
+    left: 100px;
+    top: 100px;
+}
+
+.rel{
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.abso{
+    background-color: yellow;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.fixed{
+    background-color: yellow;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
