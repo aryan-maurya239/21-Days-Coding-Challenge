@@ -1,4 +1,4 @@
-Here's a detailed explanation and examples based on the topics you learned yesterday:
+
 
 ### 1. **CSS Revision**
 You revised topics like **Flexbox** and **Text Styling** in CSS, which include:
