@@ -1,0 +1,71 @@
+
+
+.div{
+    height: 200px;
+    width: 800px;
+    background-color: blue;
+
+    
+    /* animation-name: colorAni ;  */
+    /* animation-name: sizea;
+    animation-duration: 30s;
+    animation-timing-function:ease-in ;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* animation: sizea 20s ease-in 0s infinite alternate; */
+} 
+
+
+
+/* @keyframes sizea {
+    0%{
+       font-size: smaller;
+
+    }50%{
+        font-size: large;
+        font-weight: bold;
+        background-color: red;
+        
+    }
+    70%{
+        
+        background-color: yellow;
+        
+    }
+    100%{
+        font-size: larger;
+        font-weight: bolder;
+        background-color: blue;
+    }
+
+
+} */
+
+/* @media (min-width:400px) {
+    div{
+        background-color: peru;
+    }
+    
+} 
+
+@media (max-width:400px) {
+    div{
+        background-color: red;
+        color:white;
+    }
+    
+}   */
+
+@media (orientation:landscape) {
+    h1{
+        background-color: aqua;
+    }
+
+}
+@media (orientation:portrait) {
+    h1{
+        background-color: rgb(159, 198, 32);
+    }
+    
+}
