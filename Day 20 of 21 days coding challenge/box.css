@@ -1,0 +1,49 @@
+/* 
+.one1{
+    background-color: aquamarine;
+    max-width: 300px;
+     word-break:break-all; 
+}
+
+.one2{
+    background-color: blue ;
+}
+h1{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url(WhatsApp\ Image\ 2024-09-16\ at\ 13.55.51_056804af.jpg);
+    background-size:cover;
+    background-color: red;
+    /* word-wrap:; */
+    /* text-wrap:balance; 
+}   
+
+
+
+img{ 
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+body{
+    margin: 0px;
+}
+
+p{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    border: 10px solid brown;
+    margin: 20px;
+}
