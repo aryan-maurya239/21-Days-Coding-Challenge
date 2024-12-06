@@ -1,0 +1,9 @@
+hr{ background-color: blueviolet;
+    color: red;
+    border: 5px dotted rgb(255, 255, 255);
+}
+h1 ,p {
+    box-shadow: 14 rgb(0, 0, 0);
+    color: rgb(197, 222, 248);
+    background-color: rgb(4, 94, 102);
+}

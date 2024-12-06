@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <style>
+        input,label{
+            margin: 20px;
+        }
+        footer{
+            margin-top: 180px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav><a href="home.htm">AutoMob-Mechanic</a></nav>
+        <p>
+            <a href="home.htm">Home</a>|
+            <a href="services.htm">Services</a></nav >|
+            <a href="booking.html">Booking</a>|
+            <a href="contact@automob.co.in ">contact@automob.co.in </a></nav>|
+             7376698725
+        </p>
+    </header>
+        <hr>
+        <form action="booking-success.html">
+            <h1>Schedule Your Appointment</h1>
+        <label for="date">Appointment Date:</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address"></textarea>
+        <br>
+        <label for="city">City:</label>
+        <input type="text" placeholder="Mumbai,Pune">
+        <br>
+        <label for="state">State: </label>
+        <input list="car-makes" name="car-make" placeholder="Assam, Bihar, Gujarat, Goa" required>
+        <datalist>
+            <option value="Assam"></option>
+            <option value="UP"></option>
+            <option value="MP"></option>
+            <option value="Bihar"></option>
+            <option value="Gujarat"></option>
+            <option value="Goa"></option>
+        </datalist>
+        <br>
+
+        <label for="send">Send Nofification: </label>
+        <input type="checkbox" name="send" id="nofi">Email 
+        <input type="checkbox" name="send" id="">SMS
+        <br>
+        <input type="submit" value="Book" style="color: blue;">
+        </form>
+        
+        <footer>
+            <hr>
+           <p>Copyright &copy; 2024 AutoMob-Mechanic All Right Reserved</p> 
+        </footer>
+</body>
+</html>

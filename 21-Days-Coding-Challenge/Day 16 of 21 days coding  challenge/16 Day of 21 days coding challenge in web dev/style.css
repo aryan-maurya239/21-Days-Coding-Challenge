@@ -1,0 +1,40 @@
+.container {
+    width: 600px;                  /* The container will have a width of 600px */
+    height: 300px;                 /* The container will have a height of 300px */
+    background-color: rgb(92, 102, 102);  /* The background color of the container is set to a dark greyish shade */
+    display: inline-grid;           /* Sets the display of the container as a grid */
+    
+    /* grid-template-rows: 50px 50px 50px 50px 50px 50px ; */  /* Creates 6 rows, each 50px high (commented out) */
+    /* grid-template-columns: 100px 100px 100px 100px; */       /* Creates 4 columns, each 100px wide (commented out) */
+    /* grid-template-columns: auto auto auto auto auto; */      /* Creates 5 columns with automatic width (commented out) */
+    
+    grid-template-rows: repeat(3, 1fr);   /* Divides the container into 3 equal rows using the flexible unit 'fr' */
+    grid-template-columns: repeat(3, 1fr); /* Divides the container into 3 equal columns using the flexible unit 'fr' */
+
+    /* align-items: center; */       /* Centers items along the row axis (commented out) */
+    /* justify-items: center; */     /* Centers items along the column axis (commented out) */
+
+    place-items: center;   /* Centers grid items both vertically and horizontally */
+
+    /* row-gap: 40px; */   /* Creates a 40px gap between rows (commented out) */
+    /* column-gap: 20px; */ /* Creates a 20px gap between columns (commented out) */
+    
+    /* grid-gap: 9px 145px; */  /* Sets the row gap to 9px and column gap to 145px (commented out) */
+}
+
+.item {
+    width: 100px;                    /* Each grid item has a width of 100px */
+    height: 50px;                    /* Each grid item has a height of 50px */
+    background-color: greenyellow;   /* The background color of each grid item is green-yellow */
+    border: 2px solid black;         /* Each grid item has a 2px solid black border */
+    text-align: center;              /* The text inside each item is aligned to the center horizontally */
+}
+
+/* .item1 { */
+/*     grid-row: 1/4; */    /* This grid item would span from row 1 to row 4 (commented out) */
+/*     background-color: greenyellow; */  /* The background color is green-yellow (commented out) */
+/*     border: 2px solid black; */  /* Each grid item has a 2px solid black border (commented out) */
+/* } */
+
+
+

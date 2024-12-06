@@ -1,0 +1,30 @@
+
+.box{
+    background-color: chartreuse;
+    color: rgb(0, 0, 0);
+}
+ body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%;  Ensures body takes full viewport height  */
+}
+
+body   {
+    width: 500px;
+    height: 500px;
+    /* background-color: red; */
+    /* border: 3px solid black; */
+    /* margin: 0 auto; Center the body horizontally */
+    /* background-clip: content-box; Applies backgroun/d color only to the content */
+}
+
+section{
+    background-color: blueviolet;
+    width: 50vw;
+
+}
+
+.box{
+    background-color: chartreuse;
+    width: 50%;
+}

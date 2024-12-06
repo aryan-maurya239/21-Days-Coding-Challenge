@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+}
+*:active{
+    background-color: rgb(48, 45, 45);
+    color: rgb(209, 98, 98);
+}
+div{
+    margin-top: 150px;
+    height: 200px;
+    width: 200px;
+    color: rgba(255, 255, 255,.5);
+    background-color: rgba(124, 192, 36, 0.61);
+    
+}
+div:active{
+    margin-top: 150px;
+    height: 200px;
+    width: 200px;
+    color: rgba(255, 255, 255,.5);
+    background-color: rgba(186, 21, 153, 0.61);
+    
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 20px;
+}

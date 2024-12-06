@@ -1,0 +1,83 @@
+
+
+h1{
+    color: #b92b27;
+}
+h3{
+    color: #b92b27;;
+}
+
+#login{
+    background-color: white;
+    color: black;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    color: rgb(251, 251, 255);
+    background-color: green ;
+}
+
+div[id="Myid"] p {
+     background-color: whitesmoke;
+}
+
+#Myid p{
+    color: green;
+}
+
+p a{
+    /* also use .class or #id */
+    color: purple  ;
+}
+
+nav ul li{
+    color: rgb(246, 54, 233);
+}
+
+p +h3{
+    text-decoration: underline;
+}
+
+.upvote +button{
+    background-color: rgb(107, 107, 231);
+    color: rgb(0, 0, 0);
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="Password"]{
+    color: green;
+}
+
+.upvote:hover{
+      background-color: #b92b27;
+}
+
+P:hover{
+    text-decoration: underline rgb(255, 0, 217);
+}
+
+input[type="radio"]:checked +label {
+    color: rgb(171, 43, 43);
+    font-weight: bolder ;
+}
+
+H1::first-letter{
+    color: green;
+
+}
+
+P::first-line{
+    color: rgb(255, 0, 0);
+}
+
+p::selection{
+    background-color: rgb(246, 71, 71);
+    color: #00ff15;
+}
